@@ -10,7 +10,7 @@
     "client": "npm run dev --prefix frontend",
     "both": "concurrently \"npm run server\" \"npm run client\"", 
     "data:import": "node backend/seeder.js",   
-    "data:destroy": "node backend/seeder.js -d"
+    "data:destroy": "node backend/seeder.js -d" 
   },  
   "author": "", 
   "license": "ISC",

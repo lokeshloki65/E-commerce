@@ -6,7 +6,7 @@ import User from "./model/userModal.js";
 import connectDB from "./config/db.js";
 
 connectDB();
-
+ 
 const importData = async () => {
   try { 
     // Clear existing data

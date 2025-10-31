@@ -11,7 +11,7 @@ const importData = async () => {
   try {
     // Clear existing data
     await Product.deleteMany();
-    await User.deleteMany();
+    await User.deleteMany(); 
 
     // Log the start of seeding
     console.log("Starting data import...");

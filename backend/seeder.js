@@ -8,7 +8,7 @@ import connectDB from "./config/db.js";
 connectDB();
 
 const importData = async () => {
-  try {
+  try { 
     // Clear existing data
     await Product.deleteMany();
     await User.deleteMany(); 

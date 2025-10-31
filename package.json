@@ -1,0 +1,26 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "this is a e-commerce",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon backend/server.js",
+    "client": "npm run dev --prefix frontend",
+    "both": "concurrently \"npm run server\" \"npm run client\"",
+    "data:import": "node backend/seeder.js",
+    "data:destroy": "node backend/seeder.js -d"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.8",
+    "concurrently": "^9.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0",
+    "nodemon": "^3.1.7",
+    "react-redux": "^9.1.2"
+  }
+}

@@ -4,7 +4,7 @@
   "description": "this is a e-commerce",
   "main": "index.js", 
   "type": "module",
-  "scripts": {
+  "scripts": { 
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon backend/server.js", 
     "client": "npm run dev --prefix frontend",

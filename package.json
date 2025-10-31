@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1", 
     "server": "nodemon backend/server.js", 
     "client": "npm run dev --prefix frontend",
-    "both": "concurrently \"npm run server\" \"npm run client\"",
+    "both": "concurrently \"npm run server\" \"npm run client\"", 
     "data:import": "node backend/seeder.js",   
     "data:destroy": "node backend/seeder.js -d"
   },  
